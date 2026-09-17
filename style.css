@@ -1,0 +1,113 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(6, 6, 91);
+     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* LEFT */
+.left-side {
+    width: 50%;
+
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    align-items: cover;
+    padding: 50px;
+}
+
+/* Maandishi */
+.content {
+    color: white;
+    max-width: 500px;
+}
+
+.content h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 20px 40px;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    background-color: #07f907;
+    padding: 10px 18px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    background-color: #eeeff1;
+}
+.projects {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 50px;
+    background-color: #087cf5;
+}
+
+.project-text {
+    width: 40%;
+}
+
+.project-text h1 {
+    font-size: 35px;
+    color: white;
+}
+
+.project-text h2 {
+    color: white;
+}
+
+.project-text p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.projects-images {
+    width: 60%;
+    display: flex;
+    gap: 20px;
+}
+
+.projects-images img {
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
